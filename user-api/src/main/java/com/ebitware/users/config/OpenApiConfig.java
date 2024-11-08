@@ -37,13 +37,13 @@ public class OpenApiConfig {
     @Bean
     public OpenAPI springOpenAPI(BuildProperties buildProperties) {
         return new OpenAPI()
-                .info(new Info().title("ms-envio-sms-api-service")
+                .info(new Info().title("users-api-service")
                         .description("Initial project ")
                         .version(buildProperties.getVersion())
                         .license(new License().name("Apache 2.0").url("http://springdoc.org")))
                 .externalDocs(new ExternalDocumentation()
-                        .description("Roomie IT")
-                        .url("https://roomie-it.org/"));
+                        .description("e-Bitware")
+                        .url("https://e-bitware.com/"));
     }
 
 
