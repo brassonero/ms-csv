@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: csv-processor
+data:
+  config.json: |
+    {
+      "mongodb": {
+        "database": "csv_processor_db",
+        "collection": "processed_data"
+      },
+      "logging": {
+        "level": "info",
+        "file": "/app/logs/app.log"
+      }
+    }
