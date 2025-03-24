@@ -1,4 +1,4 @@
-# EBITWARE Project Setup
+# Project Setup
 
 Microservices architecture project consisting of a Spring Boot Users API and a Node.js CSV Processor.
 
