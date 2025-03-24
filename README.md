@@ -39,7 +39,7 @@ graph TB
 ## Project Structure
 
 ```
-EBITWARE/
+brassonero/
 ├── java/
 │   └── bitware/              # Spring Boot Users API
 │       ├── kubernetes/       # K8s configurations
